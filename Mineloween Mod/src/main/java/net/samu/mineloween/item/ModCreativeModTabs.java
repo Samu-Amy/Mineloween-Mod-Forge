@@ -22,6 +22,7 @@ public class ModCreativeModTabs {
 
                 pOutput.accept(ModItems.GEM.get());
                 pOutput.accept(ModItems.WAND.get());
+                pOutput.accept(ModItems.CHOCOLATE.get());
             })
             .build());
 
