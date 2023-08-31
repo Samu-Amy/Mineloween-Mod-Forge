@@ -17,10 +17,11 @@ public class ModCreativeModTabs {
             .icon(() -> new ItemStack(ModItems.WAND.get()))
             .title(Component.translatable("creativetab.mineloween_tab"))
             .displayItems((pParameters, pOutput) -> {
+                pOutput.accept(ModBlocks.GEM_ORE.get());
+                pOutput.accept(ModBlocks.GEM_BLOCK.get());
+
                 pOutput.accept(ModItems.GEM.get());
                 pOutput.accept(ModItems.WAND.get());
-
-                pOutput.accept(ModBlocks.GEM_BLOCK.get());
             })
             .build());
 
