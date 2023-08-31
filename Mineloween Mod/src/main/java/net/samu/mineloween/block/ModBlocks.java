@@ -18,7 +18,8 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, SamuMineloweenMod.MOD_ID);
 
-    public static final RegistryObject<Block> GEM_BLOCK = registerBlock("gem_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE).sound(SoundType.AMETHYST)));
+    public static final RegistryObject<Block> GEM_BLOCK = registerBlock("gem_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE).sound(SoundType.AMETHYST)));
 
     private static <T extends Block> RegistryObject<T>  registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

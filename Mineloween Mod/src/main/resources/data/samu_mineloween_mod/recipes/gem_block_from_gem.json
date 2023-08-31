@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "samu_mineloween_mod:gem"
+    }
+  },
+  "result": {
+    "item": "samu_mineloween_mod:gem_block"
+  }
+}
