@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "samu_mineloween_mod:block/gem_ore"
+  }
+}
