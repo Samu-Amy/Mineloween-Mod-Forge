@@ -7,5 +7,7 @@
   "item.samu_mineloween_mod.chocolate": "Chocolate",
   "item.samu_mineloween_mod.leaf": "Leaf",
 
+  "tooltip.samu_mineloween_mod.wand.tooltip": "Shoot magic orbs and summon mobs",
+
   "creativetab.mineloween_tab": "Mineloween"
 }
