@@ -17,6 +17,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        simpleItem(ModItems.RAW_GEM);
         simpleItem(ModItems.GEM);
         simpleItem(ModItems.CHOCOLATE);
         simpleItem(ModItems.LEAF);

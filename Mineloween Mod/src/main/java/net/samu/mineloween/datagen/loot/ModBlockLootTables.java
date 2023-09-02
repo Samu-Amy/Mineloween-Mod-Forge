@@ -19,7 +19,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.GEM_BLOCK.get());
 
         this.add(ModBlocks.GEM_ORE.get(),
-                block -> createOreDrop(ModBlocks.GEM_ORE.get(), ModItems.GEM.get()));
+                block -> createOreDrop(ModBlocks.GEM_ORE.get(), ModItems.RAW_GEM.get()));
     }
 
     // Ogni blocco che creiamo deve avere una loot table, se non ne ha una deve avere ".noLootTable()" come proprietà quando viene creato

@@ -24,20 +24,30 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
-        oreSmelting(pWriter, GEM_SMELTABLES, RecipeCategory.MISC, ModItems.GEM.get(), 1f, 200, "gem");
-        oreBlasting(pWriter, GEM_SMELTABLES, RecipeCategory.MISC, ModItems.GEM.get(), 1f, 100, "gem");
+        oreSmelting(pWriter, GEM_SMELTABLES, RecipeCategory.MISC, ModItems.RAW_GEM.get(), 1f, 200, "gem");
+        oreBlasting(pWriter, GEM_SMELTABLES, RecipeCategory.MISC, ModItems.RAW_GEM.get(), 1f, 100, "gem");
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.GEM.get(), 9)
                         .requires(ModBlocks.GEM_BLOCK.get())
                         .unlockedBy(getHasName(ModBlocks.GEM_BLOCK.get()), has(ModBlocks.GEM_BLOCK.get()))
-                                .save(pWriter);
+                        .save(pWriter, "gem_from_gem_block");
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.GEM_BLOCK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GEM_BLOCK.get())
                 .pattern("GGG")
                 .pattern("GGG")
                 .pattern("GGG")
                 .define('G', ModItems.GEM.get())
                 .unlockedBy(getHasName(ModItems.GEM.get()), has(ModItems.GEM.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GEM.get())
+                .pattern(" R ")
+                .pattern("RAR")
+                .pattern(" R ")
+                .define('R', ModItems.RAW_GEM.get())
+                .define('A', Items.AMETHYST_SHARD)
+                .unlockedBy(getHasName(ModItems.GEM.get()), has(ModItems.GEM.get()))
+                .unlockedBy(getHasName(Items.AMETHYST_SHARD), has(Items.AMETHYST_SHARD))
                 .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WAND.get())

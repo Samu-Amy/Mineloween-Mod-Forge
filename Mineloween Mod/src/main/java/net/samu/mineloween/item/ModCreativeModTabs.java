@@ -20,6 +20,7 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModBlocks.GEM_ORE.get());
                 pOutput.accept(ModBlocks.GEM_BLOCK.get());
 
+                pOutput.accept(ModItems.RAW_GEM.get());
                 pOutput.accept(ModItems.GEM.get());
                 pOutput.accept(ModItems.WAND.get());
                 pOutput.accept(ModItems.CHOCOLATE.get());

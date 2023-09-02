@@ -12,6 +12,7 @@ import net.samu.mineloween.item.custom.WandItem;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, SamuMineloweenMod.MOD_ID);
 
+    public static final RegistryObject<Item> RAW_GEM = ITEMS.register("raw_gem", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> GEM = ITEMS.register("gem", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WAND = ITEMS.register("wand", () -> new WandItem(new Item.Properties().durability(100)));
     public static final RegistryObject<Item> CHOCOLATE = ITEMS.register("chocolate", () -> new Item(new Item.Properties().food(ModFoods.CHOCOLATE)));
