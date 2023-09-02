@@ -36,7 +36,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("GGG")
                 .pattern("GGG")
                 .pattern("GGG")
-                .define("G", ModItems.GEM.get())
+                .define('G', ModItems.GEM.get())
                 .unlockedBy(getHasName(ModItems.GEM.get()), has(ModItems.GEM.get()))
                 .save(pWriter);
 
@@ -44,8 +44,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern(" G ")
                 .pattern(" S ")
                 .pattern(" S ")
-                .define("G", ModItems.GEM.get())
-                .define("S", Items.STICK)
+                .define('G', ModItems.GEM.get())
+                .define('S', Items.STICK)
                 .unlockedBy(getHasName(ModItems.GEM.get()), has(ModItems.GEM.get()))
                 .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
                 .save(pWriter);
