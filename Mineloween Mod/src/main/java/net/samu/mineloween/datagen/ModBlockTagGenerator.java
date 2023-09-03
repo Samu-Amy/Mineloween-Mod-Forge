@@ -24,10 +24,20 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE).add(
                 ModBlocks.GEM_ORE.get(),
-                ModBlocks.GEM_BLOCK.get());
+                ModBlocks.GEM_BLOCK.get(),
+                ModBlocks.GEMMED_COBBLESTONE.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL).add(
                 ModBlocks.GEM_ORE.get(),
                 ModBlocks.GEM_BLOCK.get());
+
+        this.tag(BlockTags.FENCES).add(
+                ModBlocks.GEMMED_COBBLESTONE_FENCE.get());
+
+        this.tag(BlockTags.FENCE_GATES).add(
+                ModBlocks.GEMMED_COBBLESTONE_FENCE_GATE.get());
+
+        this.tag(BlockTags.WALLS).add(
+                ModBlocks.GEMMED_COBBLESTONE_WALL.get());
     }
 }

@@ -1,6 +1,15 @@
 {
-  "block.samu_mineloween_mod.gem_block": "Gem Block",
   "block.samu_mineloween_mod.gem_ore": "Gem Ore",
+  "block.samu_mineloween_mod.gem_block": "Gem Block",
+  "block.samu_mineloween_mod.gemmed_cobblestone": "Gemmed Cobblestone",
+  "block.samu_mineloween_mod.gemmed_cobblestone_stairs": "Gemmed Cobblestone Stairs",
+  "block.samu_mineloween_mod.gemmed_cobblestone_slab": "Gemmed Cobblestone Slab",
+  "block.samu_mineloween_mod.gemmed_cobblestone_button": "Gemmed Cobblestone Button",
+  "block.samu_mineloween_mod.gemmed_cobblestone_pressure_plate": "Gemmed Cobblestone Pressure Plate",
+  "block.samu_mineloween_mod.gemmed_cobblestone_fence": "Gemmed Cobblestone Fence",
+  "block.samu_mineloween_mod.gemmed_cobblestone_fence_gate": "Gemmed Cobblestone Fence Gate",
+  "block.samu_mineloween_mod.gemmed_cobblestone_wall": "Gemmed Cobblestone Fence Wall",
+  "block.samu_mineloween_mod.gemmed_cobblestone_trapdoor": "Gemmed Cobblestone Fence Trapdoor",
 
   "item.samu_mineloween_mod.raw_gem": "Raw Gem",
   "item.samu_mineloween_mod.gem": "Gem",

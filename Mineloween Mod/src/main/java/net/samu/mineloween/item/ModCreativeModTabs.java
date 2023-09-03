@@ -19,6 +19,7 @@ public class ModCreativeModTabs {
             .displayItems((pParameters, pOutput) -> {
                 pOutput.accept(ModBlocks.GEM_ORE.get());
                 pOutput.accept(ModBlocks.GEM_BLOCK.get());
+                pOutput.accept(ModBlocks.GEMMED_COBBLESTONE.get());
 
                 pOutput.accept(ModItems.RAW_GEM.get());
                 pOutput.accept(ModItems.GEM.get());
