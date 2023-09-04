@@ -27,6 +27,7 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModBlocks.GEMMED_COBBLESTONE_FENCE.get());
                 pOutput.accept(ModBlocks.GEMMED_COBBLESTONE_FENCE_GATE.get());
                 pOutput.accept(ModBlocks.GEMMED_COBBLESTONE_WALL.get());
+                pOutput.accept(ModBlocks.EMPTY_BOOKSHELF.get());
 
                 pOutput.accept(ModItems.RAW_GEM.get());
                 pOutput.accept(ModItems.GEM.get());

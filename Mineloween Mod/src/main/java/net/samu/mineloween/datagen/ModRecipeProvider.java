@@ -7,6 +7,7 @@ import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import net.samu.mineloween.SamuMineloweenMod;
 import net.samu.mineloween.block.ModBlocks;
@@ -58,6 +59,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(ModItems.GEM.get()), has(ModItems.GEM.get()))
                 .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.EMPTY_BOOKSHELF.get())
+                .pattern("WWW")
+                .pattern("S S")
+                .pattern("WWW")
+                .define('W', Blocks.OAK_WOOD)
+                .define('S', Blocks.OAK_SLAB)
+                .unlockedBy(getHasName(Blocks.OAK_WOOD), has(Blocks.OAK_WOOD))
+                .unlockedBy(getHasName(Blocks.OAK_SLAB), has(Blocks.OAK_SLAB))
                 .save(pWriter);
     }
 

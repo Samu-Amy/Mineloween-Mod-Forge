@@ -18,6 +18,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.GEM_ORE);
         blockWithItem(ModBlocks.GEM_BLOCK);
         blockWithItem(ModBlocks.GEMMED_COBBLESTONE);
+        blockWithItem(ModBlocks.EMPTY_BOOKSHELF);
 
         stairsBlock(((StairBlock) ModBlocks.GEMMED_COBBLESTONE_STAIRS.get()), blockTexture(ModBlocks.GEMMED_COBBLESTONE.get()));
         slabBlock(((SlabBlock) ModBlocks.GEMMED_COBBLESTONE_SLAB.get()), blockTexture(ModBlocks.GEMMED_COBBLESTONE.get()), blockTexture(ModBlocks.GEMMED_COBBLESTONE.get()));
