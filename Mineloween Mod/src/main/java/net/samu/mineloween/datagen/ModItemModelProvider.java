@@ -23,7 +23,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.GEM);
         simpleItem(ModItems.CHOCOLATE);
         simpleItem(ModItems.LEAF);
-        simpleItem(ModItems.WAND);
 
         fenceItem(ModBlocks.GEMMED_COBBLESTONE_FENCE, ModBlocks.GEMMED_COBBLESTONE);
         buttonItem(ModBlocks.GEMMED_COBBLESTONE_BUTTON, ModBlocks.GEMMED_COBBLESTONE);

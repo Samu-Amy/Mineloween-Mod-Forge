@@ -1,4 +1,4 @@
-// 1.20.1	2023-09-04T08:07:21.2215782	Item Models: samu_mineloween_mod
+// 1.20.1	2023-09-04T19:58:23.9320864	Item Models: samu_mineloween_mod
 6bce2e606d49969bda50d8718a7102f2353b7045 assets/samu_mineloween_mod/models/item/chocolate.json
 9989d275c010f6dabd6fea5047f1d805bf89c626 assets/samu_mineloween_mod/models/item/gem.json
 160b849048dd5cc7f64663023984d4e5b0bd98de assets/samu_mineloween_mod/models/item/gemmed_cobblestone_button.json
@@ -10,4 +10,3 @@ ab0c8f6f289b6ef2687cd501e805e5a95e714653 assets/samu_mineloween_mod/models/item/
 c73a6284cd209d4013d52491b0866ead42926ba1 assets/samu_mineloween_mod/models/item/gemmed_cobblestone_wall.json
 eaf21909fa35606108c0104ef0e0c84604aa2111 assets/samu_mineloween_mod/models/item/leaf.json
 91482cdcef9aab32dac272f40cd6eb7ff3ee4ff5 assets/samu_mineloween_mod/models/item/raw_gem.json
-71756669183af1f8eb78ec066e60b80d7f4a9251 assets/samu_mineloween_mod/models/item/wand.json
