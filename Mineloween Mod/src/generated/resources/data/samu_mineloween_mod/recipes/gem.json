@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "R": {
+      "item": "samu_mineloween_mod:raw_gem"
+    }
+  },
+  "pattern": [
+    " R ",
+    "RAR",
+    " R "
+  ],
+  "result": {
+    "item": "samu_mineloween_mod:gem"
+  },
+  "show_notification": true
+}

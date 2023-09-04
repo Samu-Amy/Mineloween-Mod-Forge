@@ -53,8 +53,8 @@ public class ModBlocks {
 //    public static final RegistryObject<Block> GEMMED_COBBLESTONE_DOOR = registerBlock("gemmed_cobblestone_door",
 //            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE), BlockSetType.STONE));
 
-    public static final RegistryObject<Block> GEMMED_COBBLESTONE_TRAPDOOR = registerBlock("gemmed_cobblestone_trapdoor",
-            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE), BlockSetType.STONE));
+//    public static final RegistryObject<Block> GEMMED_COBBLESTONE_TRAPDOOR = registerBlock("gemmed_cobblestone_trapdoor",
+//            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE), BlockSetType.STONE));
 
 
     private static <T extends Block> RegistryObject<T>  registerBlock(String name, Supplier<T> block) {

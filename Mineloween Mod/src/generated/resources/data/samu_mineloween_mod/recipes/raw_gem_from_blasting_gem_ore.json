@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "gem",
+  "ingredient": {
+    "item": "samu_mineloween_mod:gem_ore"
+  },
+  "result": "samu_mineloween_mod:raw_gem"
+}

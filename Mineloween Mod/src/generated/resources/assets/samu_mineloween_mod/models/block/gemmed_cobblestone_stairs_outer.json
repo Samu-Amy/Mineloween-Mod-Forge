@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "samu_mineloween_mod:block/gemmed_cobblestone",
+    "side": "samu_mineloween_mod:block/gemmed_cobblestone",
+    "top": "samu_mineloween_mod:block/gemmed_cobblestone"
+  }
+}

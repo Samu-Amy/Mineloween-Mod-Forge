@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "samu_mineloween_mod:block/gemmed_cobblestone_slab"
+    },
+    "type=double": {
+      "model": "samu_mineloween_mod:block/gemmed_cobblestone"
+    },
+    "type=top": {
+      "model": "samu_mineloween_mod:block/gemmed_cobblestone_slab_top"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "samu_mineloween_mod:block/gemmed_cobblestone"
+  }
+}

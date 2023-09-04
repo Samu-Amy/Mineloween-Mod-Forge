@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "samu_mineloween_mod:block/gemmed_cobblestone"
+  }
+}

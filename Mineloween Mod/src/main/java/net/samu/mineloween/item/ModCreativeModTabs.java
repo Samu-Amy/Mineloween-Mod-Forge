@@ -20,6 +20,13 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModBlocks.GEM_ORE.get());
                 pOutput.accept(ModBlocks.GEM_BLOCK.get());
                 pOutput.accept(ModBlocks.GEMMED_COBBLESTONE.get());
+                pOutput.accept(ModBlocks.GEMMED_COBBLESTONE_STAIRS.get());
+                pOutput.accept(ModBlocks.GEMMED_COBBLESTONE_SLAB.get());
+                pOutput.accept(ModBlocks.GEMMED_COBBLESTONE_BUTTON.get());
+                pOutput.accept(ModBlocks.GEMMED_COBBLESTONE_PRESSURE_PLATE.get());
+                pOutput.accept(ModBlocks.GEMMED_COBBLESTONE_FENCE.get());
+                pOutput.accept(ModBlocks.GEMMED_COBBLESTONE_FENCE_GATE.get());
+                pOutput.accept(ModBlocks.GEMMED_COBBLESTONE_WALL.get());
 
                 pOutput.accept(ModItems.RAW_GEM.get());
                 pOutput.accept(ModItems.GEM.get());

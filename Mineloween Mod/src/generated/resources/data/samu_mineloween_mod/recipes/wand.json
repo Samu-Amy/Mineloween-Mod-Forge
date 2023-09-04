@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "samu_mineloween_mod:gem"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " G ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "samu_mineloween_mod:wand"
+  },
+  "show_notification": true
+}

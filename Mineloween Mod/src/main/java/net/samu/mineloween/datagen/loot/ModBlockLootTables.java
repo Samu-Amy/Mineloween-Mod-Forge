@@ -20,9 +20,12 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.GEMMED_COBBLESTONE.get());
         this.dropSelf(ModBlocks.GEMMED_COBBLESTONE_STAIRS.get());
         this.dropSelf(ModBlocks.GEMMED_COBBLESTONE_BUTTON.get());
+        this.dropSelf(ModBlocks.GEMMED_COBBLESTONE_PRESSURE_PLATE.get());
         this.dropSelf(ModBlocks.GEMMED_COBBLESTONE_FENCE.get());
         this.dropSelf(ModBlocks.GEMMED_COBBLESTONE_FENCE_GATE.get());
         this.dropSelf(ModBlocks.GEMMED_COBBLESTONE_WALL.get());
+
+        this.add(ModBlocks.GEMMED_COBBLESTONE_SLAB.get(), block -> createSlabItemTable(ModBlocks.GEMMED_COBBLESTONE_SLAB.get()));
 
         this.add(ModBlocks.GEM_ORE.get(),
                 block -> createOreDrop(ModBlocks.GEM_ORE.get(), ModItems.RAW_GEM.get()));

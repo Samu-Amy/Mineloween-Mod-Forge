@@ -1,0 +1,7 @@
+// 1.20.1	2023-09-04T08:02:08.6151794	Tags for minecraft:block mod id samu_mineloween_mod
+eb760c55c408a11b3943ba0e32465f1a58da5d39 data/minecraft/tags/blocks/fences.json
+acc6da6bde7897b2776fa3b9c7be2cfeb4320d79 data/minecraft/tags/blocks/fence_gates.json
+d07a995c41b320c495db28c296d50a248f3a5fe6 data/minecraft/tags/blocks/mineable/pickaxe.json
+da7f6d8a9872f5ca1b98a26a9e2fe54c56ac604d data/minecraft/tags/blocks/needs_iron_tool.json
+5b7244da848f11b97ae6a3601876a8d79b0b0f5b data/minecraft/tags/blocks/walls.json
+63b2ed9ff61e09323230a68f30ded1e4dcc1a9c6 data/samu_mineloween_mod/tags/blocks/wand_valuables.json
