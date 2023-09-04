@@ -9,7 +9,7 @@
       "parent": "samu_mineloween_mod:item/wand_2d"
     },
     "ground": {
-      "parent": "samu_mineloween_mod:item/wand_2d"
+      "parent": "samu_mineloween_mod:item/wand_3d"
     },
     "fixed": {
       "parent": "samu_mineloween_mod:item/wand_2d"
