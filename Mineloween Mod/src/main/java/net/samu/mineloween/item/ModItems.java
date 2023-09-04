@@ -1,6 +1,7 @@
 package net.samu.mineloween.item;
 
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -15,6 +16,8 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_GEM = ITEMS.register("raw_gem", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> GEM = ITEMS.register("gem", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WAND = ITEMS.register("wand", () -> new WandItem(new Item.Properties().durability(100)));
+
+    public static final RegistryObject<Item> SCYTHE = ITEMS.register("scythe", () -> new SwordItem(ModToolTiers.DARK, 5, -2.6f, new Item.Properties()));
     public static final RegistryObject<Item> CHOCOLATE = ITEMS.register("chocolate", () -> new Item(new Item.Properties().food(ModFoods.CHOCOLATE)));
 
     public static final RegistryObject<Item> LEAF = ITEMS.register("leaf", () -> new FuelItem(new Item.Properties(), 50));

@@ -13,6 +13,7 @@ import net.samu.mineloween.SamuMineloweenMod;
 public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> WAND_VALUABLES= tag("wand_valuables");
+        public static final TagKey<Block> NEEDS_GEM_TOOL= tag("needs_gem_tool");
 
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(SamuMineloweenMod.MOD_ID, name));
