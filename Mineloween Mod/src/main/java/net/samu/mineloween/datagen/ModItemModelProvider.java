@@ -35,6 +35,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(ModBlocks.GEMMED_COBBLESTONE_FENCE_GATE);
 
         handheldItem(ModItems.SCYTHE);
+        handheldItem(ModItems.GEM_SWORD);
+        handheldItem(ModItems.GEM_PICKAXE);
+        handheldItem(ModItems.GEM_AXE);
+        handheldItem(ModItems.GEM_SHOVEL);
+        handheldItem(ModItems.GEM_HOE);
     }
 
     private void simpleItem(RegistryObject<Item> item) {
