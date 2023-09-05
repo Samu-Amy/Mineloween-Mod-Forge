@@ -31,12 +31,16 @@ public class ModCreativeModTabs {
 
                 pOutput.accept(ModItems.RAW_GEM.get());
                 pOutput.accept(ModItems.GEM.get());
-                pOutput.accept(ModItems.WAND.get());
+                pOutput.accept(ModItems.GEM_HELMET.get());
+                pOutput.accept(ModItems.GEM_CHESTPLATE.get());
+                pOutput.accept(ModItems.GEM_LEGGINS.get());
+                pOutput.accept(ModItems.GEM_BOOTS.get());
                 pOutput.accept(ModItems.GEM_SWORD.get());
                 pOutput.accept(ModItems.GEM_PICKAXE.get());
                 pOutput.accept(ModItems.GEM_AXE.get());
                 pOutput.accept(ModItems.GEM_SHOVEL.get());
                 pOutput.accept(ModItems.GEM_HOE.get());
+                pOutput.accept(ModItems.WAND.get());
                 pOutput.accept(ModItems.SCYTHE.get());
                 pOutput.accept(ModItems.CHOCOLATE.get());
                 pOutput.accept(ModItems.LEAF.get());

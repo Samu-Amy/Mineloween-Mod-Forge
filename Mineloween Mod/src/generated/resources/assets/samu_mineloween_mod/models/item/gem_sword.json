@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "samu_mineloween_mod:item/gem_sword"
+  }
+}
