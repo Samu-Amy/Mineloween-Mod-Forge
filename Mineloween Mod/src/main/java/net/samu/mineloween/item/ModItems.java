@@ -16,10 +16,10 @@ public class ModItems {
     public static final RegistryObject<Item> GEM = ITEMS.register("gem", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> WAND = ITEMS.register("wand", () -> new WandItem(new Item.Properties().durability(100)));
-    public static final RegistryObject<Item> SCYTHE = ITEMS.register("scythe", () -> new SwordItem(ModToolTiers.DARK, 5, -2.6f, new Item.Properties()));
-    public static final RegistryObject<Item> GEM_SWORD = ITEMS.register("gem_sword", () -> new SwordItem(ModToolTiers.GEM, 4, 2, new Item.Properties()));
-    public static final RegistryObject<Item> GEM_PICKAXE = ITEMS.register("gem_pickaxe", () -> new PickaxeItem(ModToolTiers.GEM, 1, 1, new Item.Properties()));
-    public static final RegistryObject<Item> GEM_AXE = ITEMS.register("gem_axe", () -> new AxeItem(ModToolTiers.GEM, 7, 1, new Item.Properties()));
+    public static final RegistryObject<Item> SCYTHE = ITEMS.register("scythe", () -> new SwordItem(ModToolTiers.DARK, 6, -3.8f, new Item.Properties()));
+    public static final RegistryObject<Item> GEM_SWORD = ITEMS.register("gem_sword", () -> new SwordItem(ModToolTiers.GEM, 4, -2.4f, new Item.Properties()));
+    public static final RegistryObject<Item> GEM_PICKAXE = ITEMS.register("gem_pickaxe", () -> new PickaxeItem(ModToolTiers.GEM, 1, -4.8f, new Item.Properties()));
+    public static final RegistryObject<Item> GEM_AXE = ITEMS.register("gem_axe", () -> new AxeItem(ModToolTiers.GEM, 7, -4.8f, new Item.Properties()));
     public static final RegistryObject<Item> GEM_SHOVEL = ITEMS.register("gem_shovel", () -> new ShovelItem(ModToolTiers.GEM, 0, 0, new Item.Properties()));
     public static final RegistryObject<Item> GEM_HOE = ITEMS.register("gem_hoe", () -> new HoeItem(ModToolTiers.GEM, 0, 0, new Item.Properties()));
 

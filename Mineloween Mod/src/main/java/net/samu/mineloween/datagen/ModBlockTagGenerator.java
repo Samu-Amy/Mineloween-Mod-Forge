@@ -27,7 +27,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 ModBlocks.GEM_BLOCK.get(),
                 ModBlocks.GEMMED_COBBLESTONE.get());
 
-        this.tag(BlockTags.NEEDS_IRON_TOOL).add(
+        this.tag(BlockTags.NEEDS_DIAMOND_TOOL).add(
                 ModBlocks.GEM_ORE.get(),
                 ModBlocks.GEM_BLOCK.get());
 

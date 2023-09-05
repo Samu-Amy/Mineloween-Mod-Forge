@@ -13,11 +13,11 @@ import java.util.List;
 
 public class ModToolTiers {
     public static final Tier GEM = TierSortingRegistry.registerTier(
-            new ForgeTier(5, 2450, 10f, 5f, 20, ModTags.Blocks.NEEDS_GEM_TOOL, () -> Ingredient.of(ModItems.GEM.get())),
+            new ForgeTier(5, 3000, 15f, 8f, 30, ModTags.Blocks.NEEDS_GEM_TOOL, () -> Ingredient.of(ModItems.GEM.get())),
             new ResourceLocation(SamuMineloweenMod.MOD_ID, "gem"), List.of(Tiers.NETHERITE), List.of());
 
     public static final Tier DARK = TierSortingRegistry.registerTier(
-            new ForgeTier(6, 3000, 9f, 6f, 25, ModTags.Blocks.NEEDS_GEM_TOOL, () -> Ingredient.of(ModItems.GEM.get())),
+            new ForgeTier(6, 5000, 9f, 12f, 40, ModTags.Blocks.NEEDS_GEM_TOOL, () -> Ingredient.of(ModItems.GEM.get())),
             new ResourceLocation(SamuMineloweenMod.MOD_ID, "dark"), List.of(GEM), List.of()); // Tier più alto della netherite (che è livello 4)
     // TODO: cambia ingredients (e forse anche tags) per DARK
 }
