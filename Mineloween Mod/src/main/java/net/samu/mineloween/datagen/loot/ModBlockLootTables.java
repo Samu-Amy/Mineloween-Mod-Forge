@@ -24,7 +24,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.GEMMED_COBBLESTONE_FENCE.get());
         this.dropSelf(ModBlocks.GEMMED_COBBLESTONE_FENCE_GATE.get());
         this.dropSelf(ModBlocks.GEMMED_COBBLESTONE_WALL.get());
-        this.dropSelf(ModBlocks.EMPTY_BOOKSHELF.get());
+        this.dropSelf(ModBlocks.MOD_BOOKSHELF.get());
 
         this.add(ModBlocks.GEMMED_COBBLESTONE_SLAB.get(), block -> createSlabItemTable(ModBlocks.GEMMED_COBBLESTONE_SLAB.get()));
 
@@ -32,7 +32,6 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createOreDrop(ModBlocks.GEM_ORE.get(), ModItems.RAW_GEM.get()));
     }
 
-    // Ogni blocco che creiamo deve avere una loot table, se non ne ha una deve avere ".noLootTable()" come proprietà quando viene creato
     @Override
     protected Iterable<Block> getKnownBlocks() {
         return ModBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;

@@ -9,6 +9,7 @@
   "block.samu_mineloween_mod.gemmed_cobblestone_fence": "Gemmed Cobblestone Fence",
   "block.samu_mineloween_mod.gemmed_cobblestone_fence_gate": "Gemmed Cobblestone Fence Gate",
   "block.samu_mineloween_mod.gemmed_cobblestone_wall": "Gemmed Cobblestone Fence Wall",
+  "block.samu_mineloween_mod.mod_bookshelf": "Fillable Bookshelf",
 
   "item.samu_mineloween_mod.raw_gem": "Raw Gem",
   "item.samu_mineloween_mod.gem": "Gem",
@@ -27,7 +28,9 @@
   "item.samu_mineloween_mod.chocolate": "Chocolate",
   "item.samu_mineloween_mod.leaf": "Leaf",
 
-  "tooltip.samu_mineloween_mod.wand.tooltip": "Shoot magic orbs and summon mobs",
+  "creativetab.mineloween_tab": "Mineloween",
 
-  "creativetab.mineloween_tab": "Mineloween"
+  "enchantment.samu_mineloween_mod.lightning_striker": "Lightning Striker",
+
+  "tooltip.samu_mineloween_mod.wand.tooltip": "Shoot magic orbs and summon mobs"
 }

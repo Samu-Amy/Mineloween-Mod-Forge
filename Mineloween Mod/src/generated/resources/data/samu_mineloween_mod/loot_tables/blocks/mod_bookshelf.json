@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "samu_mineloween_mod:empty_bookshelf"
+          "name": "samu_mineloween_mod:mod_bookshelf"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "samu_mineloween_mod:blocks/empty_bookshelf"
+  "random_sequence": "samu_mineloween_mod:blocks/mod_bookshelf"
 }

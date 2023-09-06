@@ -27,7 +27,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "samu_mineloween_mod:empty_bookshelf"
+        "recipe": "samu_mineloween_mod:mod_bookshelf"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -41,7 +41,7 @@
   ],
   "rewards": {
     "recipes": [
-      "samu_mineloween_mod:empty_bookshelf"
+      "samu_mineloween_mod:mod_bookshelf"
     ]
   },
   "sends_telemetry_event": false

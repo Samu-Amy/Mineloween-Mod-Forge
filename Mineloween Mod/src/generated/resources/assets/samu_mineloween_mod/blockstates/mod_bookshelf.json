@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "fill_level=0": {
+      "model": "samu_mineloween_mod:block/empty_bookshelf"
+    },
+    "fill_level=1": {
+      "model": "samu_mineloween_mod:block/bookshelf_level_1"
+    },
+    "fill_level=2": {
+      "model": "samu_mineloween_mod:block/bookshelf_level_2"
+    },
+    "fill_level=3": {
+      "model": "samu_mineloween_mod:block/bookshelf_level_3"
+    },
+    "fill_level=4": {
+      "model": "samu_mineloween_mod:block/bookshelf_level_4"
+    },
+    "fill_level=5": {
+      "model": "samu_mineloween_mod:block/bookshelf_level_5"
+    },
+    "fill_level=6": {
+      "model": "samu_mineloween_mod:block/mod_bookshelf"
+    }
+  }
+}

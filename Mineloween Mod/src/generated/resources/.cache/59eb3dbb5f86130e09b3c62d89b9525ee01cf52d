@@ -1,5 +1,4 @@
-// 1.20.1	2023-09-04T20:28:37.1594788	Loot Tables
-e97c7fdb9a909244d758af5bb6e8dafeb2354ca2 data/samu_mineloween_mod/loot_tables/blocks/empty_bookshelf.json
+// 1.20.1	2023-09-06T17:44:37.2112504	Loot Tables
 3dccbbf7ad78b85968dfeb1ad4907ae6cc3ac757 data/samu_mineloween_mod/loot_tables/blocks/gemmed_cobblestone.json
 7b6bbaefff3aa7770b24b111214e53f236aa22c3 data/samu_mineloween_mod/loot_tables/blocks/gemmed_cobblestone_button.json
 dae78a47502abaef0c84360e7ca8a70f4b2cbe8a data/samu_mineloween_mod/loot_tables/blocks/gemmed_cobblestone_fence.json
@@ -10,3 +9,4 @@ dae78a47502abaef0c84360e7ca8a70f4b2cbe8a data/samu_mineloween_mod/loot_tables/bl
 c8cd431e0a97875decd80f12201144647d31cee1 data/samu_mineloween_mod/loot_tables/blocks/gemmed_cobblestone_wall.json
 227c9f3bfd9d6f676e8e0bafb9174cff601c0c72 data/samu_mineloween_mod/loot_tables/blocks/gem_block.json
 9fc2af9c8251d9544a9e598de6e7f62716e7a315 data/samu_mineloween_mod/loot_tables/blocks/gem_ore.json
+5c6651f55abb2d821c09c259f9d4f24850d56560 data/samu_mineloween_mod/loot_tables/blocks/mod_bookshelf.json

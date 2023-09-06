@@ -14,6 +14,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.samu.mineloween.block.ModBlocks;
+import net.samu.mineloween.enchantment.ModEnchantments;
 import net.samu.mineloween.item.ModCreativeModTabs;
 import net.samu.mineloween.item.ModItems;
 import org.slf4j.Logger;
@@ -35,6 +36,7 @@ public class SamuMineloweenMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModEnchantments.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
