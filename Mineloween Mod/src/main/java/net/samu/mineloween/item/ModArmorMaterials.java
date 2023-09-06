@@ -10,7 +10,7 @@ import net.samu.mineloween.SamuMineloweenMod;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    GEM("gem", 26, new int[]{5, 7, 5, 4}, 25, SoundEvents.ARMOR_EQUIP_DIAMOND, 1f, 0.5f, () -> Ingredient.of(ModItems.GEM.get()));
+    GEM("gem", 26, new int[]{4, 10, 7, 4}, 25, SoundEvents.ARMOR_EQUIP_DIAMOND, 4f, 0.3f, () -> Ingredient.of(ModItems.GEM.get()));
 
     private final String name;
     private final int durabilityMultiplier;
