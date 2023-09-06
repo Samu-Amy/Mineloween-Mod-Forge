@@ -43,6 +43,7 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.WAND.get());
                 pOutput.accept(ModItems.SCYTHE.get());
                 pOutput.accept(ModItems.CHOCOLATE.get());
+                pOutput.accept(ModItems.BELLADONNA_SEEDS.get());
                 pOutput.accept(ModItems.LEAF.get());
             })
             .build());

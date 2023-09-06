@@ -4,19 +4,23 @@
   "block.samu_mineloween_mod.gemmed_cobblestone": "Gemmed Cobblestone",
   "block.samu_mineloween_mod.gemmed_cobblestone_stairs": "Gemmed Cobblestone Stairs",
   "block.samu_mineloween_mod.gemmed_cobblestone_slab": "Gemmed Cobblestone Slab",
+  "block.samu_mineloween_mod.mod_bookshelf": "Fillable Bookshelf",
+
   "block.samu_mineloween_mod.gemmed_cobblestone_button": "Gemmed Cobblestone Button",
   "block.samu_mineloween_mod.gemmed_cobblestone_pressure_plate": "Gemmed Cobblestone Pressure Plate",
+
   "block.samu_mineloween_mod.gemmed_cobblestone_fence": "Gemmed Cobblestone Fence",
   "block.samu_mineloween_mod.gemmed_cobblestone_fence_gate": "Gemmed Cobblestone Fence Gate",
   "block.samu_mineloween_mod.gemmed_cobblestone_wall": "Gemmed Cobblestone Fence Wall",
-  "block.samu_mineloween_mod.mod_bookshelf": "Fillable Bookshelf",
 
   "item.samu_mineloween_mod.raw_gem": "Raw Gem",
   "item.samu_mineloween_mod.gem": "Gem",
+
   "item.samu_mineloween_mod.gem_helmet": "Gem Helmet",
   "item.samu_mineloween_mod.gem_chestplate": "Gem Chestplate",
   "item.samu_mineloween_mod.gem_leggins": "Gem Leggins",
   "item.samu_mineloween_mod.gem_boots": "Gem Boots",
+
   "item.samu_mineloween_mod.gem_sword": "Gem Sword",
   "item.samu_mineloween_mod.gem_pickaxe": "Gem Pickaxe",
   "item.samu_mineloween_mod.gem_axe": "Gem Axe",
@@ -24,8 +28,11 @@
   "item.samu_mineloween_mod.gem_hoe": "Gem Hoe",
   "item.samu_mineloween_mod.wand": "Wand",
   "item.samu_mineloween_mod.scythe": "Scythe",
-  "item.samu_mineloween_mod.test_wand": "Test Wand",
+
   "item.samu_mineloween_mod.chocolate": "Chocolate",
+
+  "item.samu_mineloween_mod.belladonna_seeds": "Belladonna Seeds",
+
   "item.samu_mineloween_mod.leaf": "Leaf",
 
   "creativetab.mineloween_tab": "Mineloween",

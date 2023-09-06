@@ -12,6 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.samu.mineloween.SamuMineloweenMod;
+import net.samu.mineloween.block.custom.BelladonnaCropBlock;
 import net.samu.mineloween.block.custom.ModBookshelf;
 import net.samu.mineloween.item.ModItems;
 
@@ -57,8 +58,13 @@ public class ModBlocks {
 //    public static final RegistryObject<Block> GEMMED_COBBLESTONE_TRAPDOOR = registerBlock("gemmed_cobblestone_trapdoor",
 //            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE), BlockSetType.STONE));
 
+    // --------------- Bookshelf ---------------
     public static final RegistryObject<Block> MOD_BOOKSHELF = registerBlock("mod_bookshelf",
             () -> new ModBookshelf(BlockBehaviour.Properties.copy(Blocks.BOOKSHELF)));
+
+    // --------------- Crops ---------------
+    public static final RegistryObject<Block> BELLADONNA_CROP = BLOCKS.register("belladonna_crop",
+            () -> new BelladonnaCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
 
     private static <T extends Block> RegistryObject<T>  registerBlock(String name, Supplier<T> block) {

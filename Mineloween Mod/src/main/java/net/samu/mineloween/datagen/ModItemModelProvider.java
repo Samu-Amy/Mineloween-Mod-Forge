@@ -44,6 +44,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RAW_GEM);
         simpleItem(ModItems.GEM);
         simpleItem(ModItems.CHOCOLATE);
+        simpleItem(ModItems.BELLADONNA_SEEDS);
         simpleItem(ModItems.LEAF);
 
         fenceItem(ModBlocks.GEMMED_COBBLESTONE_FENCE, ModBlocks.GEMMED_COBBLESTONE);

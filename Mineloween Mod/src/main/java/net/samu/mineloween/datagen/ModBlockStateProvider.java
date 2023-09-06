@@ -3,13 +3,17 @@ package net.samu.mineloween.datagen;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 import net.samu.mineloween.SamuMineloweenMod;
 import net.samu.mineloween.block.ModBlocks;
+import net.samu.mineloween.block.custom.BelladonnaCropBlock;
 import net.samu.mineloween.block.custom.ModBookshelf;
+
+import java.util.function.Function;
 
 public class ModBlockStateProvider extends BlockStateProvider {
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
@@ -33,11 +37,27 @@ public class ModBlockStateProvider extends BlockStateProvider {
         fenceBlock(((FenceBlock) ModBlocks.GEMMED_COBBLESTONE_FENCE.get()), blockTexture(ModBlocks.GEMMED_COBBLESTONE.get()));
         fenceGateBlock(((FenceGateBlock) ModBlocks.GEMMED_COBBLESTONE_FENCE_GATE.get()), blockTexture(ModBlocks.GEMMED_COBBLESTONE.get()));
         wallBlock(((WallBlock) ModBlocks.GEMMED_COBBLESTONE_WALL.get()), blockTexture(ModBlocks.GEMMED_COBBLESTONE.get()));
+
+        makeCrop(((BelladonnaCropBlock) ModBlocks.BELLADONNA_CROP.get()), "belladonna_stage_", "belladonna_stage_");
     }
 
     // Crea sia il blocco che l'oggetto
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
+    }
+
+    public void makeCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> states(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] states(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((BelladonnaCropBlock) block).getAgeProperty()),
+                new ResourceLocation(SamuMineloweenMod.MOD_ID, "block/" + textureName + state.getValue(((BelladonnaCropBlock) block).getAgeProperty()))).renderType("cutout"));
+
+        return models;
     }
 
     private void customBookshelf() {
